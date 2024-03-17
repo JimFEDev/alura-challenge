@@ -1,0 +1,96 @@
+
+html {
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.logo{
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
+
+.texto-origen{
+    position: absolute;
+    resize: none;
+    border-radius: 10px;
+    top: 120px;
+    left: 200px;
+    outline: none;
+    border: none;
+    font-size: 22px;
+}
+.condiciones p{
+    position: absolute;
+    bottom:  120px;
+    left:200px ;
+    font-size: 10px;
+}
+
+.botones{
+    position: absolute;
+    bottom:  40px;
+    left: 190px;
+}
+
+.btn-encriptar , .btn-desencriptar{
+    padding: 10px;
+    margin: 10px;
+    width: 140px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btn-encriptar{
+    background-color: greenyellow;
+}
+
+
+.texto-encriptado{
+    position: relative;
+    width:940px;
+}
+
+
+.texto-final{
+    position: absolute;
+    left: 910px;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: chocolate;
+    text-align: center;
+    font-weight: bold;
+    background-image: url(img/undraw_Code_review_re_woeb.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: right;
+}
+
+
+.btn-copiar{
+    position: absolute;
+    left: 1010px;
+    top: 490px;
+    padding: 10px;
+    margin: 10px;
+    width: 140px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.copy-right{
+    position: absolute;
+    bottom: 0;
+    margin: 10px auto;
+    width: 1440px;
+}
+.copy-right p{
+    font-size: 
+    12px;
+    text-align: center;
+}

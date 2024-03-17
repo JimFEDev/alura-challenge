@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Alura Challenge</title>
+</head>
+    
+<body>
+        <header>
+        <h1 class="logo"><img src="img/Logo.png" alt="#"></h1>
+        </header>
+    <main>
+        
+        <div class="origen">
+            <textarea class="texto-origen" name="texto" id="" cols="45" rows="12" placeholder="Escribe aqui el texto..."></textarea>
+        </div>
+        <div class="condiciones">
+            <p>Solo letras minusculas y sin caracteres especiales</p>
+        </div>
+        <div class="botones">
+            <button  class="btn-encriptar" onclick="btnEncriptar();">Encriptar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar();">Desencriptar</button>
+        </div>
+
+        <div class="texto-encriptado">
+            <textarea class="texto-final" name="texto" id="" cols="30" rows="22"></textarea>
+        </div>
+        <div class="copiar">
+            <button class="btn-copiar" onclick="btnCopiar();">Copiar</button>
+        </div>
+    </main>
+    <footer class="copy-right">
+            <p>
+                &copy; Realizado por Jim_FeDev. Challenge Alura 2024.
+            </p>
+        </footer>
+</body>
+    <script src="app.js"></script>
+</html>
